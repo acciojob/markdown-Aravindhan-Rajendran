@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { parseMarkdown } from './markdownParser';
-import './App.css';
+
 
 const App = () => {
   const [markdown, setMarkdown] = useState('');
